@@ -1,0 +1,27 @@
+Scenario.name = RLRouter_Simulation
+
+# How many reports to load
+Report.nrofReports = 6
+# Length of the warm-up period (simulated seconds)
+Report.warmup = 0
+# Default directory of reports (can be overridden per Report with output setting)
+Report.reportDir = reports/RL/
+
+# Report classes to load
+Report.report1 = MessageStatsReport
+Report.MessageStatsReport.file = reports/RLRouter_CombinedReport.txt
+
+Report.report2 = DeliveredMessagesReport
+Report.DeliveredMessagesReport.file = reports/RLRouter_CombinedReport.txt
+
+Report.report3 = MessageDelayReport
+Report.MessageDelayReport.file = reports/RLRouter_CombinedReport.txt
+
+Report.report4 = InterContactTimesReport
+Report.InterContactTimesReport.file = reports/RLRouter_CombinedReport.txt
+
+Report.report5 = EventLogReport
+Report.EventLogReport.file = reports/RLRouter_CombinedReport.txt
+
+Report.report6 = DistanceDelayReport
+Report.DistanceDelayReport.file = reports/RLRouter_CombinedReport.txt

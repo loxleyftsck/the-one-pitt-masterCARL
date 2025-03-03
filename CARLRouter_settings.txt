@@ -1,0 +1,30 @@
+## Reports
+# Jumlah total laporan yang akan dihasilkan
+Report.nrofReports = 6
+
+# Direktori tempat laporan akan disimpan
+Report.reportDir = reports/
+
+# Laporan Statistik Pesan
+Report.report1 = MessageStatsReport
+Report.MessageStatsReport.file = reports/CARLRouter_MessageStatsReport.txt
+
+# Laporan Pesan yang Berhasil Dikirim
+Report.report2 = DeliveredMessagesReport
+Report.DeliveredMessagesReport.file = reports/CARLRouter_DeliveredMessagesReport.txt
+
+# Laporan Waktu Tunda Pesan
+Report.report3 = MessageDelayReport
+Report.MessageDelayReport.file = reports/CARLRouter_MessageDelayReport.txt
+
+# Laporan Waktu Antar Kontak
+Report.report4 = InterContactTimesReport
+Report.InterContactTimesReport.file = reports/CARLRouter_InterContactTimesReport.txt
+
+# Laporan Hubungan Jarak dan Waktu Tunda
+Report.report5 = DistanceDelayReport
+Report.DistanceDelayReport.file = reports/CARLRouter_DistanceDelayReport.txt
+
+# Laporan Log Peristiwa Simulasi
+Report.report6 = EventLogReport
+Report.EventLogReport.file = reports/CARLRouter_EventLogReport.txt
